@@ -1,3 +1,4 @@
+/* Reset and basic font */
 * {
   margin: 0;
   padding: 0;
@@ -5,14 +6,16 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Body background and text color */
 body {
   background: #f4f4f9;
   color: #333;
 }
 
+/* Header with background image */
 header {
-  /* ======== ADD YOUR BACKGROUND IMAGE URL HERE ======== */
-  background: url('https://images.app.goo.gl/qLDzcRfp8NT7JNpD9') no-repeat center center/cover;
+  /* Apni background image ka path yahan set karen */
+  background: url('https://images.app.goo.gl/o8qR19rf2qY4FNc18') no-repeat center center/cover;
   
   color: white;
   padding: 100px 20px;
@@ -20,26 +23,31 @@ header {
   position: relative;
 }
 
+/* Dark overlay over header background */
 header .overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); /* Transparent black */
   padding: 60px 20px;
   border-radius: 10px;
   display: inline-block;
 }
 
+/* Profile picture style */
 .profile-pic {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 50%;  /* Circle shape */
   margin-bottom: 20px;
   border: 4px solid #fff;
+  object-fit: cover;   /* Image fit */
 }
 
+/* Main heading */
 h1 {
   font-size: 3em;
   margin-bottom: 10px;
 }
 
+/* Buttons style */
 .btn {
   padding: 10px 20px;
   margin: 10px;
@@ -51,12 +59,14 @@ h1 {
   display: inline-block;
 }
 
+/* Sections styling */
 section {
   padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
 }
 
+/* Section title */
 .section-title {
   font-size: 2em;
   margin-bottom: 20px;
@@ -64,6 +74,7 @@ section {
   text-align: center;
 }
 
+/* Skills bars container */
 .skills .bar {
   background: #ddd;
   border-radius: 5px;
@@ -71,6 +82,7 @@ section {
   overflow: hidden;
 }
 
+/* Skills bars filling */
 .skills .bar span {
   display: block;
   background: #ffaa00;
@@ -80,15 +92,18 @@ section {
   line-height: 25px;
 }
 
+/* Education timeline */
 .timeline {
   border-left: 4px solid #004466;
   padding-left: 20px;
 }
 
+/* Timeline entries */
 .timeline div {
   margin-bottom: 20px;
 }
 
+/* Certifications badges */
 .badges span {
   display: inline-block;
   background: #004466;
@@ -98,6 +113,7 @@ section {
   border-radius: 4px;
 }
 
+/* Contact form styles */
 .contact form {
   display: flex;
   flex-direction: column;
@@ -110,6 +126,7 @@ section {
   font-size: 1em;
 }
 
+/* Footer */
 footer {
   background: #222;
   color: white;
