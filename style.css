@@ -17,7 +17,7 @@ header {
   /* Apni background image ka path yahan set karen */
   background: url('https://www.google.com/imgres?imgurl=https://thumbs.dreamstime.com/b/background-beautiful-shell-beach-high-quality-illustration-277433122.jpg&tbnid=jUmsBp6sp-UZBM&vet=1&imgrefurl=https://www.dreamstime.com/background-beautiful-shell-beach-high-quality-illustration-image277432707&docid=R2F9aB3PrDWK8M&w=800&h=800&itg=1&hl=en-GB&source=sh/x/im/m1/4&kgs=6f01a5be149d572c') no-repeat center center/cover;
   
-  color: white;
+  color: black;
   padding: 100px 20px;
   text-align: center;
   position: relative;
